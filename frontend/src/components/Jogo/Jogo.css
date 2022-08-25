@@ -26,6 +26,15 @@
     
     animation: mover-direita-para-esquerda infinite 10s linear;
   }
+
+  .solo {
+    width: 300px;
+    bottom: 300px;
+    position: absolute;
+    
+   
+    animation: mover-direita-para-esquerda infinite 5s linear;
+  }
   
   .pipe {
     width: 50px;

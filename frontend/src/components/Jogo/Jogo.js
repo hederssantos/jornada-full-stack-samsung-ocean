@@ -2,6 +2,7 @@ import "./Jogo.css";
 import clouds from "../../assets/clouds.png";
 import pipe from "../../assets/pipe.png";
 import mario from "../../assets/mario.gif";
+import solo from "../../assets/solo.png";
 
 import React, { useRef, useState } from "react";
 
@@ -79,6 +80,7 @@ if (estaPulando)
     <div className="jogo">
       <img className="clouds" src={clouds} alt="Nuvens" />
       <img className="clouds2" src={clouds} alt="Nuvens" />
+      <img className="solo" src={solo} alt="solo" />
 
       <img ref={canoRef} className="pipe" src={pipe} alt="pipe" />
 
@@ -92,3 +94,4 @@ if (estaPulando)
 }
 
 export default Jogo;
+// Teste
