@@ -35,8 +35,10 @@
    
     animation: mover-direita-para-esquerda infinite 5s linear;
   }
+
   
-  .pipe {
+  .cano {
+
     width: 50px;
 
     position: absolute;
@@ -52,6 +54,10 @@
   animation: mover-direita-para-esquerda infinite 2s linear;
 }
 
+.parar-animacao {
+  animation-play-state: paused;
+}
+
 @keyframes mover-direita-para-esquerda {
   from {
     right: -300px;
@@ -60,6 +66,19 @@
   to {
     right: 100%;
   }
+}
+
+  .mario {
+  height: 100px;
+
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+
+  }
+
+  .mario-pulo {
+  animation: mario-pulo 0.7s;
 }
 
 @keyframes mario-pulo {
@@ -75,20 +94,6 @@
     bottom: 30px;
   }
 }
-
-  .mario {
-  height: 100px;
-
-  position: absolute;
-  bottom: 30px;
-  left: 50px;
-
-  }
-
-  .mario-pulo {
-  animation: mario-pulo 0.7s;
-  
-    }
 
   .chao {
     background: limegreen;
