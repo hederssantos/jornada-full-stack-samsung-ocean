@@ -20,4 +20,8 @@ Professor: Paulo Salvatore
 
 
   <h3 align="center"> Preview: </h3>
+  
+  <p align="center">
+  <img src="https://raw.githubusercontent.com/hederssantos/jornada-full-stack-samsung-ocean/main/mario.gif" alt=”my banner”>
+</p>
  
