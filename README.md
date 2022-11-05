@@ -1,6 +1,6 @@
 
 <h2 align="center">
-Jornaea Full Stack Samsung Ocean
+Jornada Full Stack Samsung Ocean
 </h2>
   </br>
 <h3 align="center">
